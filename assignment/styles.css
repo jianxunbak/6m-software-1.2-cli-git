@@ -1,0 +1,56 @@
+.container {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    
+}
+
+.flag {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px red solid;
+    display: cover;
+    float: left;
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.details {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: gray;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: left;
+    text-align: left;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    
+}
