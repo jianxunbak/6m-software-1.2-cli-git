@@ -30,6 +30,8 @@
 .icon {
     width: 25px;
     height: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
 .details {
@@ -38,19 +40,22 @@
     flex-direction: column;
     justify-content: space-around;
     color: gray;
+    align-items: center;
 }
 
 .info {
+    width: 200px;
     display: flex;
     flex-direction: row;
-    justify-items: center;
     justify-content: left;
     text-align: left;
-    gap: 20px;
+    /* gap: 20px; */
+    padding: 10px;
 }
 
-ul {
+.info-detail {
     list-style-type: none;
     padding: 0px;
+    margin: 0px;
     
 }
